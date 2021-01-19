@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #000 url(../img/bg_final.jpg) no-repeat center top;
+	margin: 0;
+	padding: 0;
+	font-family: Arial,sans-serif;
+	font-size: 15px;
+	color: #CCC;
+}
+
+a, a:visited {
+	color: #EE2E24;
+	text-decoration: none;
+}
+
+#headwrap {
+	background: #000 url(../img/bg-header.jpg) no-repeat center top;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.head {
+	background: url(../img/bg-nav.jpg) no-repeat center;
+	height: 112px;
+	text-align: center;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.logo {
+	background: url(../img/logo.jpg) no-repeat;
+	height: 112px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#content {
+	background-color: #131313;
+	box-shadow: 0px 16px 20px 6px #000000;
+	-moz-box-shadow: 0px 16px 20px 6px #000000;
+	-webkit-box-shadow: 0px 16px 20px 6px #000000;
+	filter: progid:DXImageTransform.Microsoft.Shadow(strength= 16,direction = 180,color = '#000000');
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 16,Direction = 180,Color = '#000000')";
+	margin: 0 auto 70px auto;
+	padding: 40px 0 0;
+	position: relative;
+	width: 1000px;
+	padding: 40px 25px;
+}
+
+h1 {
+	font-family: Arial,sans-serif;
+	letter-spacing: -6px;
+	font-size: 72px;
+	line-height: 58px;
+	margin: 0 0 18px;
+	color: #fff;
+}
+
+span.red {
+	color: #DC291E;
+}
+
+/* Tab Content */
+.picture {
+	background-color: #F9F9F9;
+	border: 1px solid #CCCCCC; padding: 3px;
+	text-align: center;
+	margin: 0 0 18px 0;
+	color: #000;
+}
+
+.picture img {
+	width: 100%;
+}
+.tabbed {
+	border: 0.2rem solid #ccc;
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: flex-start;
+}
+.tabbed > button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 0.9rem 1rem;
+	transition: 0.3s;
+	font-size: 1.2rem;
+}
+.tabbed button:hover {
+	background-color: #ddd;
+}
+.content {
+	display: none;
+	padding: 0.3rem 0.8rem;
+	border: 0.2rem solid #ccc;
+}
+
+/* Image Rotator */
+#rotator {
+	width: 450px;
+	height: 300px;
+	border: 1px solid black;
+	background: #aaa;
+	text-align: center;
+}
+img {
+	height: 19rem;
+	object-fit: contain;
+	margin-bottom: 0.5rem;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	transition: 0.6s ease;
+	cursor: pointer;
+	user-select: none;
+}
+.slider > div {
+	margin-top: -2rem;
+}
